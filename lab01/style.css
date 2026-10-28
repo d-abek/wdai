@@ -5,7 +5,17 @@
   font-style: normal;
 }
 
-h1 {
+
+.libre-franklin-Libre-Font {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
+.main-page-title {
     font-family: "Oswald";
     font-size: 100px;
     color: purple;
@@ -16,11 +26,115 @@ h1 {
     margin: 0px;
 }
 
-ol {
+.main-page-list {
     font-family: "Oswald";
     font-size: 50px;
     color: #388AC2;
 
     width: fit-content;
-    margin: 0 auto;;
+    margin: auto;
+}
+
+
+
+.article-heading {
+    font-family: "Oswald";
+
+    margin-bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.article-paragraph {
+    font-family: "Libre Franklin";
+
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 1.5cm;
+
+    max-width: 60%;
+}
+
+.article-signature{
+    font-family: "Oswald";
+    font-style: italic;
+    font-variant: small-caps;
+
+    max-width: 80%;
+    margin-bottom: 0px;
+
+    display: flex;
+    justify-content: flex-end;
+
+    /*border: 1px solid black;*/
+}
+
+.article-img{
+    margin: auto;
+    margin-top: 0;
+
+    display: flex;
+    justify-content: center;
+
+    background: transparent;
+
+    /*border: 1px solid black;*/
+}
+
+
+
+.table ,.table-headings tr th, .table-rows tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-headings {
+    font-family: "Oswald";
+}
+
+.table-rows tr td{
+    font-family: "Libre Franklin";
+}
+
+.table-rows tr td{
+    padding-inline: 0.5cm;
+    padding-block: 0.1cm;
+}
+
+.table{
+    margin-top: 1cm;
+    margin: 1cm auto 0;
+}
+
+
+
+.gallery-square {
+    height: 100px;
+    width: 100px;
+    background-color: #388AC2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+
+    min-height: 100vh;
+    gap: 20px;
+    width: 340px;
+    margin: 0 auto;
+
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    /*border: 1px solid black;*/
+}
+
+.gallery-square p{
+    font-family: "Oswald";
 }
