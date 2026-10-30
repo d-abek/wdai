@@ -60,6 +60,7 @@
     font-family: "Oswald";
     font-style: italic;
     font-variant: small-caps;
+    color: brown;
 
     max-width: 80%;
     margin-bottom: 0px;
@@ -112,7 +113,6 @@
 .gallery-square {
     height: 100px;
     width: 100px;
-    background-color: #388AC2;
 
     display: flex;
     justify-content: center;
@@ -130,7 +130,7 @@
 
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 
     /*border: 1px solid black;*/
 }
@@ -138,3 +138,8 @@
 .gallery-square p{
     font-family: "Oswald";
 }
+
+.blue {background-color: #388AC2;}
+.violet {background-color: blueviolet}
+.orange {background-color: orangered}
+.brown {background-color: brown}
