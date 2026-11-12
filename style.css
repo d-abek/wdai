@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
 
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
  .main-content {
@@ -74,8 +74,8 @@
 .explosion_1 {
     position: absolute;
     width: 20%;
-    top: 40%;
-    left: 27%;
+    top: 50%;
+    left: 25%;
 }
 
 .explosion_2 {
@@ -85,7 +85,18 @@
     left: 70%;
 }
 
+.signature {
+    font-family: "Oswald";
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 250%;
+    color: brown;
 
+    margin-right: 1%;
+
+    align-self: flex-end;
+    /* border: 1px solid black; */
+}
 
 .article-heading {
     font-family: "Oswald";
