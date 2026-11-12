@@ -14,16 +14,41 @@
 }
 
 
+.main-page {
+    min-height: 100vh;
+    margin: 0px;
 
-.main-page-title {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid blue;
+}
+
+ .main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-left: 1%;
+
+    /* border: 1px solid black; */
+}
+
+.menu-title {
     font-family: "Oswald";
     font-size: 100px;
     color: purple;
-    
-    display: flex;
-    justify-content: center;
-    
-    margin: 0px;
+
+    /* border: 1px solid black; */
 }
 
 .main-page-list {
@@ -31,8 +56,29 @@
     font-size: 50px;
     color: #388AC2;
 
-    width: fit-content;
+    /* border: 1px solid black; */
+}
+
+.main-page-img {
     margin: auto;
+    width: 40%;
+    background: transparent;
+
+    /* border: 1px solid black; */
+}
+
+.explosion_1 {
+    position: absolute;
+    width: 20%;
+    top: 40%;
+    left: 27%;
+}
+
+.explosion_2 {
+    position: absolute;
+    width: 20%;
+    top: 15%;
+    left: 70%;
 }
 
 
@@ -82,33 +128,6 @@
 
     /*border: 1px solid black;*/
 }
-
-
-
-.table ,.table-headings tr th, .table-rows tr td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-.table-headings {
-    font-family: "Oswald";
-}
-
-.table-rows tr td{
-    font-family: "Libre Franklin";
-}
-
-.table-rows tr td{
-    padding-inline: 0.5cm;
-    padding-block: 0.1cm;
-}
-
-.table{
-    margin-top: 1cm;
-    margin: 1cm auto 0;
-}
-
-
 
 .gallery-square {
     height: 100px;
