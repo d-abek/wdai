@@ -30,6 +30,8 @@
     align-items: center;
 
     flex: 1;
+
+    /* border: 1px solid black; */
 }
 
 .menu {
@@ -37,6 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    flex-shrink: 0;
 
     margin-left: 1%;
 
@@ -66,8 +69,6 @@
     /* border: 1px solid black; */
 }
 
-
-
 .main-page-img {
     position: relative;
     display: flex;
@@ -83,6 +84,7 @@
     height: auto;
 
     background: transparent;
+
     /* border: 1px solid black; */
 }
 
@@ -117,13 +119,24 @@
     /* border: 1px solid black; */
 }
 
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+
+    /* border: 1px solid black; */
+}
+
 .article-heading {
     font-family: "Oswald";
 
     margin-bottom: 0px;
 
-    display: flex;
-    justify-content: center;
+    justify-self: center;
+
+    /* border: 1px solid black; */
 }
 
 .article-paragraph {
@@ -134,65 +147,119 @@
     margin-bottom: 1.5cm;
 
     max-width: 60%;
-}
 
-.article-signature{
-    font-family: "Oswald";
-    font-style: italic;
-    font-variant: small-caps;
-    color: brown;
+    justify-self: center;
 
-    max-width: 80%;
-    margin-bottom: 0px;
-
-    display: flex;
-    justify-content: flex-end;
-
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
 }
 
 .article-img{
     margin: auto;
     margin-top: 0;
 
-    display: flex;
-    justify-content: center;
-
     background: transparent;
 
-    /*border: 1px solid black;*/
-}
-
-.gallery-square {
-    height: 100px;
-    width: 100px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* border: 1px solid black; */
 }
 
 .gallery {
 
-    min-height: 100vh;
+    min-height: 80vh;
+    max-height: 80vh;
     gap: 20px;
-    width: 340px;
+    width: 60vw;
     margin: 0 auto;
 
     display: flex;
 
     justify-content: center;
     align-content: center;
+    align-items: center;
     flex-wrap: wrap-reverse;
 
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
 }
 
-.gallery-square p{
+.stewie {
+    height: auto;
+    width: 10vw;
+    
+    /* border: 1px solid black; */
+}
+
+.brian {
+    height: auto;
+    width: 5vw;
+
+    /* border: 1px solid black; */
+}
+
+.peter {
+    height: auto;
+    width: 22vw;
+
+    /* border: 1px solid black; */
+}
+
+.quagmire {
+    height: auto;
+    width: 15vw;
+
+    /* border: 1px solid black; */
+}
+
+.contact-form {
     font-family: "Oswald";
+    
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid black; */
 }
 
-.blue {background-color: #388AC2;}
-.violet {background-color: blueviolet}
-.orange {background-color: orangered}
-.brown {background-color: brown}
+.contact-form h1 {
+    text-align: center;
+
+    /* border: 1px solid black */
+}
+
+.contact-form label {
+    font-size: 1.5vw;
+    margin-top: 2vw;
+
+    /* border: 1px solid black */
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+
+    padding: 12px;
+    font-size: 1vw;
+
+    /* border: 1px solid black */
+}
+
+.contact-form textarea {
+    min-height: 5vw;
+
+    /* border: 1px solid black */
+}
+
+.contact-form button {
+    font-size: 1vw;
+    width: 10vw;
+    margin-top: 2vw;
+
+    /* border: 1px solid black */
+}
+
+.gallery video {
+    height: auto;
+    width: 20vw;
+}
